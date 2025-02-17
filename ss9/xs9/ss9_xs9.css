@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.row1 {
+    width: 100%;
+    height: 47%;
+    position: relative;
+}
+.row1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.heading {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.heading h1 a:hover{
+    color: red;
+    cursor: pointer;
+}
+.heading h1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.row2 {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    gap: 10px;
+}
+.item {
+    width: 33%;
+    height: 100%;
+    position: relative;
+}
+
+.item .title22{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(143, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.item .title22 button{
+    width: 80%;
+    height: 30px;
+    background-color: white;
+    color: rgb(143, 0, 0);
+    border: none;
+    border-radius: 4px;
+}
+
+.item .title22 button:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.item img{
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.title h2 a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+h1,h2 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
